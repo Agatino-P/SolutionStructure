@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAM3D.UI", "CAM3D.UI\CAM3D.UI.csproj", "{415D0957-3230-4040-A52A-B4C06DE8D71D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mecal", "Mecal", "{804B2F61-A011-496A-BAE1-23BFE5E3F776}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mecal.Cam3D", "Mecal.Cam3D", "{CABAB89B-C1C7-4486-BB5A-3C915951BAF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mecal.CAM3D.SharedKernel", "Mecal.CAM3D.SharedKernel\Mecal.CAM3D.SharedKernel.csproj", "{78DDC675-0DBE-4084-B222-061EFB97E04E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mecal.Infrastructure", "Mecal.Infrastructure\Mecal.Infrastructure.csproj", "{92FFEC6F-2B89-4BCA-AE22-3A504428E7A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mecal.Cam3D.Infrastructure", "Mecal.Cam3D.Infrastructure\Mecal.Cam3D.Infrastructure.csproj", "{54859771-994A-4797-846C-52E5DEC508E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mecal.SharedKernel", "Mecal.SharedKernel\Mecal.SharedKernel.csproj", "{B1A31931-BF76-4A93-9644-76451E9754E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{415D0957-3230-4040-A52A-B4C06DE8D71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415D0957-3230-4040-A52A-B4C06DE8D71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415D0957-3230-4040-A52A-B4C06DE8D71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415D0957-3230-4040-A52A-B4C06DE8D71D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DDC675-0DBE-4084-B222-061EFB97E04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DDC675-0DBE-4084-B222-061EFB97E04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DDC675-0DBE-4084-B222-061EFB97E04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DDC675-0DBE-4084-B222-061EFB97E04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92FFEC6F-2B89-4BCA-AE22-3A504428E7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FFEC6F-2B89-4BCA-AE22-3A504428E7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FFEC6F-2B89-4BCA-AE22-3A504428E7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FFEC6F-2B89-4BCA-AE22-3A504428E7A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54859771-994A-4797-846C-52E5DEC508E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54859771-994A-4797-846C-52E5DEC508E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54859771-994A-4797-846C-52E5DEC508E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54859771-994A-4797-846C-52E5DEC508E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A31931-BF76-4A93-9644-76451E9754E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A31931-BF76-4A93-9644-76451E9754E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A31931-BF76-4A93-9644-76451E9754E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A31931-BF76-4A93-9644-76451E9754E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{415D0957-3230-4040-A52A-B4C06DE8D71D} = {CABAB89B-C1C7-4486-BB5A-3C915951BAF3}
+		{78DDC675-0DBE-4084-B222-061EFB97E04E} = {CABAB89B-C1C7-4486-BB5A-3C915951BAF3}
+		{92FFEC6F-2B89-4BCA-AE22-3A504428E7A3} = {804B2F61-A011-496A-BAE1-23BFE5E3F776}
+		{54859771-994A-4797-846C-52E5DEC508E9} = {CABAB89B-C1C7-4486-BB5A-3C915951BAF3}
+		{B1A31931-BF76-4A93-9644-76451E9754E7} = {804B2F61-A011-496A-BAE1-23BFE5E3F776}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6A68CD7-EA91-4E11-9EF6-ABF7242DF3B5}
+	EndGlobalSection
+EndGlobal
