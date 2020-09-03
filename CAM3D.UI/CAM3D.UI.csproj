@@ -94,6 +94,8 @@
     <Folder Include="Dashboards\ProductionDashboard\" />
     <Folder Include="Dashboards\ProgrammingDashboard\" />
     <Folder Include="Dashboards\SchedulerDashboard\" />
+    <Folder Include="Media\" />
+    <Folder Include="Styles\" />
     <Folder Include="Wpf\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

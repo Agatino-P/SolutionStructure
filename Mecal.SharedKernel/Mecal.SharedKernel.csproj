@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\ICompiler.cs" />
     <Compile Include="Interfaces\IConfig.cs" />
     <Compile Include="Interfaces\ILogger.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
@@ -49,6 +50,7 @@
     <Folder Include="Models\Clamps\" />
     <Folder Include="Models\CompilerHelper\" />
     <Folder Include="Models\OrderAggregate\" />
+    <Folder Include="Models\ProgramAggregate\" />
     <Folder Include="Wpf\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
